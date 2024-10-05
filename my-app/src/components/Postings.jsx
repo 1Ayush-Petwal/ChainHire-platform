@@ -178,7 +178,7 @@ const styles = {
   },
   applyButton: {
     padding: '10px 20px',
-    backgroundColor: '#FF5722',
+    backgroundColor: '#0000FF',
     color: '#fff',
     border: 'none',
     borderRadius: '4px',

@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo.jpg";
+import avatar from "../assets/avatar.avif";
+import { PhantomConnect } from "./PhantomConnect";
 const Navbar = () => {
   const navbarStyle = {
     backgroundColor: "#000",
@@ -12,7 +14,7 @@ const Navbar = () => {
     position: "fixed", // Fixes the navbar at the top
     width: "95%",
     top: 0,
-    zIndex: 1000,
+    zIndex: 1,
   };
 
   const logoStyle = {
@@ -66,7 +68,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav style={navbarStyle}>
+    <div>
+      <nav style={navbarStyle}>
      <img src={logo} alt="" width="100" height="50" />
       <ul style={linksStyle}>
       <li>
@@ -87,12 +90,16 @@ const Navbar = () => {
       </ul>
       {/* Profile Image */}
       <img
-        src="https://via.placeholder.com/40" // Replace this with your actual profile image URL
+        src={avatar} // Replace this with your actual profile image URL
         alt="Profile"
         style={profileImageStyle}
         onClick={handleProfileClick}
       />
+
     </nav>
+          
+    </div>
+    
   );
 };
 

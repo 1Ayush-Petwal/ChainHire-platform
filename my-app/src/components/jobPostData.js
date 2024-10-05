@@ -21,7 +21,7 @@ const jobData = [
     companyName: "Designify",
     location: "Austin, TX",
     jobDescription: "Create visually appealing and user-friendly designs.",
-    logo: "https://cdn4.iconfinder.com/data/icons/logos-brands-8/32/facebook-logo-social_media-network-meta-2-512.png"
+    logo: "https://logowik.com/content/uploads/images/863_louis_vuitton.jpg"
   },
   {
     id:4,
