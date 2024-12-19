@@ -1,1 +1,1 @@
-# Solana-Radar
+# Solana Project
